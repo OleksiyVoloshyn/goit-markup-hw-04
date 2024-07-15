@@ -107,15 +107,28 @@ header{
     
 }
 .header-nav-page {
-    display: block;
+    display: flex;
+    flex-direction: column;
     color: #2e2f42;
     padding: 24px 0;
 }
-.header-nav-page:hover {
+.header-nav-page:hover{ 
     color: #404bbf;
 }
-.header-nav-page:focus {
+.header-nav-page:focus{
     color: #404bbf;
+}
+
+.header-nav-page::after {
+    content: "";
+    position: relative;
+    border-radius: 2px;
+    max-width: 100px;
+    height: 4px;
+    background-color: #fff;
+}
+.header-nav-page:hover::after{
+    background-color: #404bbf;
 }
 /*ADDRESS*/
 .header-address {
@@ -146,6 +159,11 @@ header{
 .main-section-one {
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7) ), 
+    url(/images/people-office\ 1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
 }
 .main-section-one-title {
     max-width: 496px;
@@ -171,9 +189,9 @@ header{
     margin: 0 auto;
 }
 
- button:hover {
+button:hover {
     background-color: #404BBF
- }
+}
 
 button:focus {
     background-color: #404BBF
@@ -191,7 +209,7 @@ button:focus {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 .main-section-two {
     padding: 120px 0;
 }
@@ -214,6 +232,26 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.section-two-icon {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    padding: 24px 0;
+    max-width: 264px;
+    max-height: 112px;
+    background-color: #F4F4FD;
+    margin-top: 8px;
+}
+.section-two-icon:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.section-two-icon:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.icon-two {
+    
 }
 /* our team*/
 .main-section-three {

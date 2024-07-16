@@ -242,7 +242,7 @@ button:focus {
     max-width: 264px;
     max-height: 112px;
     background-color: #F4F4FD;
-    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .section-two-icon:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -284,6 +284,8 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
 }
+/* spraite*/
+
 /* Our Portfolio */
 .main-section-four {
     padding-top: 120px;
@@ -308,8 +310,6 @@ button:focus {
 }
 .main-section-four-titlename {
     margin-bottom: 8px;
-
-
 }
 .main-section-four-text {
     font-weight: 400;

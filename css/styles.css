@@ -244,14 +244,19 @@ button:focus {
     background-color: #F4F4FD;
     margin-bottom: 8px;
 }
+.icon-selection-two {
+        display: block;
+        width: 1em;
+        height: 1em;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+}
 .section-two-icon:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .section-two-icon:focus {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
-.icon-two {
-    
 }
 /* our team*/
 .main-section-three {

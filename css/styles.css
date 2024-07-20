@@ -109,7 +109,7 @@ header{
     color:#404bbf;
     
 }
-.header-nav-page {
+.header-nav-page-1{
     display: flex;
     flex-direction: column;
     color: #2e2f42;
@@ -117,15 +117,30 @@ header{
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-nav-page:hover{ 
+.header-nav-page-2{
+    display: flex;
+    flex-direction: column;
+    color: #2e2f42;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-nav-page-3{
+    display: flex;
+    flex-direction: column;
+    color: #2e2f42;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-nav-page-1:hover{ 
     color: #404bbf;
 }
-.header-nav-page:focus{
+.header-nav-page-1:focus{
     color: #404bbf;
 }
 
-.header-nav-page::after {
+.header-nav-page-1::after {
     content: "";
     position: absolute;
     border-radius: 2px;
@@ -134,6 +149,7 @@ header{
     background-color: #fff;
     bottom: -1px;
     background-color: #404BBF;
+    width: 100%;
 }
 .header-nav-page:hover::after{
     background-color: #404bbf;
@@ -154,6 +170,7 @@ header{
 }
 .header-address-contacts {
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address-contacts:hover { 
@@ -168,11 +185,12 @@ header{
 .main-section-one {
     background-color: #2e2f42;
     padding: 188px 0;
+    max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7) ), 
     url(/images/people-office\ 1\ \(1\).jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: auto;
+    background-size: cover;
 }
 .main-section-one-title {
     max-width: 496px;
@@ -196,6 +214,7 @@ header{
     border: none;
     border-radius: 4px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 button:hover {

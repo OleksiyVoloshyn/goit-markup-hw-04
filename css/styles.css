@@ -384,7 +384,7 @@ flex-shrink: 0;
                 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.main-section-four-list:hover {
+.img-text-hover:hover {
     transform: translateY(0%);
 }
 .main-section-four-list-img{
@@ -426,7 +426,13 @@ footer {
 .footer-web {
     background-color: #2e2f42;
 }
-
+.footer-web .container {
+    display: flex;
+    align-items: baseline;
+}
+.footer-web .container div {
+    margin-right: 150px;
+}
 .footer-web-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -452,7 +458,16 @@ footer {
     color: #f4f4fd;
     max-width: 264px;
 }
-.social-links-container {
-    
+.footer-social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+.social-links-footer {
+    display: flex;
+    gap: 16px;
+
 }
 

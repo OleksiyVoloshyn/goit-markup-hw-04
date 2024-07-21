@@ -254,9 +254,7 @@ button:focus {
 .main-section-two-list-page { 
     flex-basis: calc((100% - 72px) / 4);
 }
-.main-section-two-titlename {
-    margin-bottom: 8px;
-}
+
 .main-section-two-text {
     font-weight: 400;
     font-size: 16px;
@@ -266,6 +264,7 @@ button:focus {
 }
 .section-two-icon {
     display: flex;
+    align-items: center;
     justify-content: center;
     border: 1px solid #8E8F99;
     border-radius: 4px;

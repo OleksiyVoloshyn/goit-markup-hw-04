@@ -304,6 +304,9 @@ button:focus {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 .main-section-three-workers {
     padding: 32px 0;
@@ -325,16 +328,36 @@ button:focus {
     width: auto;
     height: auto;
     stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+
 }
 .social-links {
 display: flex;
+justify-content: center;
 align-items:center;
-justify-content: space-between;
+gap: 24px;
 padding-left: 16px;
 padding-right: 16px;
 flex-shrink: 0;
+}
+.social-links-list {
+    height: 40px;
+    width: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link:hover {
+    background-color: #404BBF;
+}
+.link:focus {
+    background-color: #404BBF;
 }
 
 

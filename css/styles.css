@@ -112,7 +112,15 @@ header{
 .nav-list-1 {
     color:#404bbf;
 }
-.header-nav-page-1{
+.header-nav-page-one{
+    display: flex;
+    flex-direction: column;
+    color: #404BBF;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-nav-page-two{
     display: flex;
     flex-direction: column;
     color: #2e2f42;
@@ -120,15 +128,7 @@ header{
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-nav-page-2{
-    display: flex;
-    flex-direction: column;
-    color: #2e2f42;
-    padding: 24px 0;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-nav-page-3{
+.header-nav-page-three{
     display: flex;
     flex-direction: column;
     color: #2e2f42;
@@ -342,7 +342,7 @@ flex-shrink: 0;
 .social-links-list {
     height: 40px;
     width: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .link {
     width: 100%;
@@ -352,6 +352,7 @@ flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover {
     background-color: #404BBF;
@@ -384,9 +385,7 @@ flex-shrink: 0;
                 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.img-text-hover:hover {
-    transform: translateY(0%);
-}
+
 .main-section-four-list-img{
     position: relative;
     overflow: hidden;
@@ -404,7 +403,9 @@ flex-shrink: 0;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.img-text-hover :hover {
+    transform: translateY(0%);
+}
 .main-section-four-list-category {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -470,4 +471,13 @@ footer {
     gap: 16px;
 
 }
+.container-footer-logo {
+    margin-right: 120px;
+}
 
+.footer-social-link .social-links .social-links-list .link :hover {
+    background-color: #31d0aa;
+}
+.footer-social-link .social-links .social-links-list .link :focus {
+    background-color: #31d0aa;
+}

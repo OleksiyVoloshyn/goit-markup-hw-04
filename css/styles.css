@@ -365,10 +365,10 @@ flex-shrink: 0;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-team:hover {
+.link :hover {
     background-color: #404BBF;
 }
-.social-links-list:focus {
+.link :focus {
     background-color: #404BBF;
 }
 

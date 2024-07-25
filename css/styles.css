@@ -287,7 +287,7 @@ button:focus {
     margin-bottom: 8px;
 }
 .icon-selection-two {
-        display: block;
+        display: inline-block;
         width: 1em;
         height: 1em;
         stroke-width: 0;
@@ -340,7 +340,6 @@ button:focus {
     width: auto;
     height: auto;
     stroke-width: 0;
-
 }
 .social-links {
 display: flex;
@@ -366,10 +365,10 @@ flex-shrink: 0;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links-list:hover {
+.link:hover {
     background-color: #404BBF;
 }
-.social-links-list:focus {
+.link:focus {
     background-color: #404BBF;
 }
 

@@ -355,7 +355,7 @@ flex-shrink: 0;
     width: 40px;
     display: flex;
 }
-.link {
+.links {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -365,10 +365,10 @@ flex-shrink: 0;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link :hover {
+.links :hover {
     background-color: #404BBF;
 }
-.link :focus {
+.links :focus {
     background-color: #404BBF;
 }
 

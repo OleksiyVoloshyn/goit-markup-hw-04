@@ -365,7 +365,7 @@ flex-shrink: 0;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links-list:hover {
+.icon-team:hover {
     background-color: #404BBF;
 }
 .social-links-list:focus {

@@ -370,8 +370,6 @@ flex-shrink: 0;
 }
 
 
-/* spraite*/
-
 /* Our Portfolio */
 .main-section-four {
     padding-top: 120px;
@@ -412,7 +410,7 @@ flex-shrink: 0;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.main-section-four-pages-title:hover .img-text-hover{
+.main-section-four-list:hover .img-text-hover{
     transform: translateY(0%);
 }
 .main-section-four-list-category {
